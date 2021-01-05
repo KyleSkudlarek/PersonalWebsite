@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,9 @@ body{
     font-family: 'Lato', sans-serif;
     color: #333;
     line-height: 1.6;
+    font-size: 16px;
+    height:100%;
+    background-color: #3d3d3d;
 }
 
 ul{
@@ -22,7 +25,7 @@ a{
 }
 
 h1, h2{
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.2;
     margin: 10px 0;
 }
@@ -31,12 +34,9 @@ p{
     margin: 10px 0;
 }
 
-img {
-    width: 100%;
-}
 
 .navbar{
-    background-color: #047aed;
+    background-color: #232323;
     color: white;
     height: 70px;
 }
@@ -71,4 +71,27 @@ img {
 
 .navbar .flex {
     justify-content: space-between;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.showcase{
+    color: white;
+    background-color: #3d3d3d;
+    height:100%;
+}
+
+.grid{
+    height:100%;
+
+}
+
+.profilepic{
+    display: block;
+    width: 20%;
+    height: auto;
+    float: left;
 }
