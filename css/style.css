@@ -90,16 +90,21 @@ p{
 }
 
 .profilepic{
-    display: block;
-    height: auto;
-    max-height: 100px;
+    /*display: block;*/
+
+    max-height: 70px;
+
     float: left;
     margin-right:10px;
+    object-fit: contain;
 }
 
 .showcase-about, .showcase-portfolio, .showcase-contact {
-    display: block;
     margin-bottom: 20px;
     margin-top:20px;
 }
 
+
+.showcase-about {
+    height: 100%;
+}
