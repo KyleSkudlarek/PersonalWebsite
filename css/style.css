@@ -21,7 +21,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: #333;
+    color: white;
 }
 
 h1, h2{
@@ -91,7 +91,15 @@ p{
 
 .profilepic{
     display: block;
-    width: 20%;
     height: auto;
+    max-height: 100px;
     float: left;
+    margin-right:10px;
 }
+
+.showcase-about, .showcase-portfolio, .showcase-contact {
+    display: block;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
