@@ -108,3 +108,33 @@ p{
 .showcase-about {
     height: 100%;
 }
+
+.footer_div{
+    display:flex;
+    justify-content: flex-end;
+    padding: 50px;
+
+
+}
+
+
+/* Style all font awesome icons */
+.fab {
+    padding: 20px;
+    margin:10px;
+    font-size: 70px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* github */
+.fa-github {
+    color: white;
+}
+
+.fa-linkedin-square {
+    color: white;
+}
+
+
